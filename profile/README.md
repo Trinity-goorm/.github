@@ -25,32 +25,80 @@
 | 신우성 | Backend | 회원, 식당 관리, 검색, 데이터 파싱 + **α** |
 | 한주리 | Frontend | 예약, 상세페이지, 홈 + **α** |
 | 정채헌 | Frontend | 회원, 온보딩, 알림, 식당 관리, 검색 + **α** |
-| 김대현 | Cloud/AI | 아키텍처 설계, 추천 서비스 + 잡부 |
+| 김대현 | Cloud/AI | 아키텍처 설계, 추천 서비스 |
 
 ---
 
 ## 기술 스택
 
-### Backend
-- **프레임워크:** Spring Data JPA  
-- **언어/툴:** JAVA, MySQL, Docker, Docker Compose, FCM
+<table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Tech</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Backend</td>
+            <td>
+                <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat&logo=spring" alt="Spring Data JPA">
+                <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white" alt="Java">
+                <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
+                <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker">
+                <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat&logo=docker-compose&logoColor=white" alt="Docker Compose">
+                <img src="https://img.shields.io/badge/FCM-FFCA28?style=flat&logo=firebase&logoColor=white" alt="FCM">
+            </td>
+        </tr>
+        <tr>
+            <td>Frontend</td>
+            <td>
+                <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" alt="React">
+                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+                <img src="https://img.shields.io/badge/Recoil-000000?style=flat" alt="Recoil">
+                <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailWind CSS">
+                <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=flat&logo=styled-components&logoColor=white" alt="Styled Components">
+            </td>
+        </tr>
+        <tr>
+            <td>Cloud & Infra</td>
+            <td>
+                    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker">
+                    <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white" alt="AWS">
+                    <img src="https://img.shields.io/badge/Amazon%20IAM-DD344C?style=flat&logo=amazoniam&logoColor=white" alt="Amazon IAM">
+                    <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=AmazonEC2&logoColor=white" alt="Amazon EC2">
+                    <img src="https://img.shields.io/badge/Amazon%20ECS-FF9900?style=flat&logo=AmazonECS&logoColor=white" alt="Amazon ECS">
+                    <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=flat&logo=AmazonS3&logoColor=white" alt="Amazon S3">
+                    <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=flat&logo=AmazonRDS&logoColor=white" alt="Amazon RDS">
+                    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=Linux&logoColor=black" alt="Linux">
+                    <img src="https://img.shields.io/badge/Sentry-FF6500?style=flat&logo=Sentry&logoColor=white" alt="Sentry">
+                    <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=MongoDB&logoColor=white" alt="MongoDB">
+                    <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white" alt="Git">
+                    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" alt="GitHub">
+                    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions">
+            </td>
+        </tr>
+        <tr>
+            <td>AI</td>
+            <td>
+                <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white" alt="Python">
+                <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
+                <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+                <img src="https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white" alt="numpy">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-### Frontend
-- **라이브러리/프레임워크:** React, JS, Recoil  
-- **스타일링:** TailWind CSS, Styled Component
 
-### Cloud / AI
-- **인프라:** AWS (EC2, ECR, RDS), Docker, docker-compose  
-- **CI/CD:** Github Actions  
-- **API 서버:** Flask  
-- **언어/라이브러리:** Python, Scikit-learn, Pandas, numpy
 
 ---
 
 ## 타임라인
 
 - **관리 툴:** JIRA를 통한 기능 개발 타임라인 관리  
-- (예시 이미지: `trinity_goorm_2025-02-24_11.13pm.png`)
+![image](https://github.com/user-attachments/assets/f944427f-3e2f-44de-8645-708242cfee1c)
 
 ---
 
@@ -59,12 +107,12 @@
 - **요구사항 명세서:** [Notion 링크](https://www.notion.so/a3e85eb422304573977ba8db3dfce3ca?pvs=21)
 - **API 명세서:** [Notion 링크](https://www.notion.so/API-18cea615225081d9a434c759bcca3576?pvs=21)
 - **와이어프레임:**  
-  ![와이어프레임 이미지](./assets/wireframe.png)
+![image](https://github.com/user-attachments/assets/0a96a2d4-dfbf-4378-91d1-28d9da35f1a8)
 - **ERD:**  
-  ![ERD 이미지](./assets/ERD.png)
+![image](https://github.com/user-attachments/assets/9d12dd59-1605-4a36-9a17-96f777e5c671)
+
 - **아키텍처 설계:**  
-  [Notion 링크](https://www.notion.so/ce1f6067284c4ff8ac5dadee2b5f841a?pvs=21)  
-  ![아키텍처 이미지](./assets/architecture.png)
+![image](https://github.com/user-attachments/assets/81afc291-ece4-4972-8125-cbd8afccff87)
 
 ---
 
@@ -164,11 +212,6 @@
 - **인프라 고가용성:** 현재 하나의 가용영역(`ap-northeast-2a`) → 다중 가용영역(`ap-northeast-2b`)으로 확장 및 로드밸런서 연결
 
 ---
-
-## Contributing
-
-기여에 관심 있으신 분들은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고해 주세요.
-
 ## License
 
 이 프로젝트는 [MIT 라이선스](LICENSE)를 따릅니다.
