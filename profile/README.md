@@ -1,91 +1,91 @@
-# 캐치핑 (Catch-Ping)
+# Catch-Ping 
+![iScreen Shoter - Preview - 250406213238](https://github.com/user-attachments/assets/308a2350-f1b1-4a2f-b330-aeab81fa44d2)
 
-이 레포지토리는 **식당 예약 서비스**인 [캐치테이블](https://app.catchtable.co.kr/index.html) 클론 서비스를 위한 프로젝트입니다.  
-사용자가 식당을 예약하고 상황에 맞는 적절한 알림을 받아볼 수 있도록 다양한 기능(회원관리, 예약, 알림, 추천, 검색)을 제공합니다.
+- Catch-Ping은 사용자 맞춤형 식당 추천과 효율적인 예약 및 알림 서비스를 제공하는 스마트 다이닝 플랫폼입니다.
+- AI 추천 시스템과 성능 최적화를 통해 고객에게 최고의 사용자 경험을 제공합니다.
+- **식당 예약 서비스**인 [캐치테이블](https://app.catchtable.co.kr/index.html) 클론 프로젝트입니다.  
 
 ---
 
 ## 프로젝트 소개
 
-- **주요 기능:**  
-  - **회원관리:** 소셜로그인 및 온보딩, 마이페이지 (예약/알림 관리 등)
-  - **예약:** 선점, 확정, 취소 기능과 티켓/좌석 증감 정책 적용
-  - **알림:** 예약 리마인더, 빈자리 알림, 예약 확인/취소 알림
-  - **추천:** 사용자 선호 데이터와 식당 정보를 활용한 협업 필터링 기반 추천
-  - **검색:** 카테고리/키워드 기반 검색 및 정렬 기능
-
+- **주요 기능**  
+  - **식당 검색 및 예약:** 원하는 키워드로 쉽고 빠르게 식당 검색 및 예약 가능
+  - **개인화된 AI 추천:** 사용자 선호도와 식당 특성을 반영한 맞춤형 식당 추천
+  - **알림 시스템:** 예약 상태 및 빈자리 발생 시 실시간 알림 발송
+    
 ---
 
 ## 팀원 소개
 
-| **이름** | **역할** | **책임 파트** |
+| **이름** | **역할** | **담당 R&R** |
 | --- | --- | --- |
-| 김민철 | 팀장, Backend | 알림 + **α** |
-| 이민우 | Backend | 예약 + **α** |
-| 신우성 | Backend | 회원, 식당 관리, 검색, 데이터 파싱 + **α** |
-| 한주리 | Frontend | 예약, 상세페이지, 홈 + **α** |
-| 정채헌 | Frontend | 회원, 온보딩, 알림, 식당 관리, 검색 + **α** |
-| 김대현 | Cloud/AI | 아키텍처 설계, 추천 서비스 |
+| 김민철 | 팀장, Backend | 알림 기능, 온보딩 기능 |
+| 이민우 | Backend | 예약 기능, 데이터 삽입 |
+| 신우성 | Backend | 검색 기능, 식당 관련 기능 |
+| 한주리 | Frontend | 홈화면, 식당 상세 + 예약 페이지 |
+| 정채헌 | Frontend | 회원 기능, 온보딩, 검색 화면, 알림기능 |
+| 김대현 | Cloud/AI | 인프라 설계 & 구축, 식당 추천 기능 |
 
 ---
 
 ## 기술 스택
 
 <table>
-    <thead>
-        <tr>
-            <th>Category</th>
-            <th>Tech</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Backend</td>
-            <td>
-                <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat&logo=spring" alt="Spring Data JPA">
-                <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white" alt="Java">
-                <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
-                <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker">
-                <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat&logo=docker-compose&logoColor=white" alt="Docker Compose">
-                <img src="https://img.shields.io/badge/FCM-FFCA28?style=flat&logo=firebase&logoColor=white" alt="FCM">
-            </td>
-        </tr>
-        <tr>
-            <td>Frontend</td>
-            <td>
-                <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" alt="React">
-                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
-                <img src="https://img.shields.io/badge/Recoil-000000?style=flat" alt="Recoil">
-                <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailWind CSS">
-                <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=flat&logo=styled-components&logoColor=white" alt="Styled Components">
-            </td>
-        </tr>
-        <tr>
-            <td>Cloud & Infra</td>
-            <td>
-                    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker">
-                    <img src="https://img.shields.io/badge/Amazon%20IAM-DD344C?style=flat&logo=amazoniam&logoColor=white" alt="Amazon IAM">
-                    <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=AmazonEC2&logoColor=white" alt="Amazon EC2">
-                    <img src="https://img.shields.io/badge/Amazon%20ECS-FF9900?style=flat&logo=AmazonECS&logoColor=white" alt="Amazon ECS">
-                    <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=flat&logo=AmazonS3&logoColor=white" alt="Amazon S3">
-                    <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=flat&logo=AmazonRDS&logoColor=white" alt="Amazon RDS">
-                    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions">
-            </td>
-        </tr>
-        <tr>
-            <td>AI</td>
-            <td>
-                <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask">
-                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white" alt="Python">
-                <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
-                <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas">
-                <img src="https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white" alt="numpy">
-            </td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Tech</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Backend</td>
+      <td>
+        <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring">
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white" alt="Java">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis">
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB">
+      </td>
+    </tr>
+    <tr>
+      <td>Frontend</td>
+      <td>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" alt="React">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+        <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat&logo=react-query&logoColor=white" alt="Tanstack Query">
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailWind CSS">
+        <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=flat&logo=styled-components&logoColor=white" alt="Styled Components">
+      </td>
+    </tr>
+    <tr>
+      <td>Cloud & Infra</td>
+      <td>
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" alt="AWS">
+        <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=AmazonEC2&logoColor=white" alt="Amazon EC2">
+        <img src="https://img.shields.io/badge/Amazon%20ECS-FF9900?style=flat&logo=AmazonECS&logoColor=white" alt="Amazon ECS">
+        <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=flat&logo=AmazonS3&logoColor=white" alt="Amazon S3">
+        <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=flat&logo=AmazonRDS&logoColor=white" alt="Amazon RDS">
+        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white" alt="Prometheus">
+        <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" alt="Grafana">
+      </td>
+    </tr>
+    <tr>
+      <td>AI</td>
+      <td>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/Hybrid%20Recommendation%20System-4B8BBE?style=flat" alt="Hybrid Recommendation System">
+        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+        <img src="https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white" alt="numpy">
+      </td>
+    </tr>
+  </tbody>
 </table>
-
-
 
 ---
 
