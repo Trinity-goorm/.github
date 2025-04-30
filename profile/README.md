@@ -2,7 +2,7 @@
 ![iScreen Shoter - Preview - 250406213238](https://github.com/user-attachments/assets/308a2350-f1b1-4a2f-b330-aeab81fa44d2)
 
 - Catch-Ping은 사용자 맞춤형 식당 추천과 효율적인 예약 및 알림 서비스를 제공하는 스마트 다이닝 플랫폼입니다.
-- AI 추천 시스템과 성능 최적화를 통해 고객에게 최고의 사용자 경험을 제공합니다.
+- 개인화된 AI 식당 추천 시스템과 원하는 키워드로 쉽고 빠르게 식당 검색 및 예약, 알림시스템으로 고객에게 최고의 사용자 경험을 제공합니다.
 - **식당 예약 서비스**인 [캐치테이블](https://app.catchtable.co.kr/index.html) 클론 프로젝트입니다.  
 
 ---
