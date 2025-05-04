@@ -62,7 +62,7 @@
     <tr>
       <td>Cloud & Infra</td>
       <td>
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" alt="AWS">
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white" alt="AWS">
         <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=AmazonEC2&logoColor=white" alt="Amazon EC2">
         <img src="https://img.shields.io/badge/Amazon%20ECS-FF9900?style=flat&logo=AmazonECS&logoColor=white" alt="Amazon ECS">
         <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=flat&logo=AmazonS3&logoColor=white" alt="Amazon S3">
