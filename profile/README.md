@@ -106,7 +106,8 @@
 ![image](https://github.com/user-attachments/assets/9d12dd59-1605-4a36-9a17-96f777e5c671)
 
 - **아키텍처 설계:**  
-![image](https://github.com/user-attachments/assets/81afc291-ece4-4972-8125-cbd8afccff87)
+
+![iScreen Shoter - draw io - 250501160603](https://github.com/user-attachments/assets/d95d2be1-f04f-4384-a806-b2a47d1185b9)
 
 ---
 
